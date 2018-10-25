@@ -19,12 +19,12 @@ Pod::Spec.new do |s|
     'https://raw.github.com/mwaterfall/MWPhotoBrowser/master/Screenshots/MWPhotoBrowser6.png'
   ]
 
-  s.homepage = 'https://github.com/EvoIos/MWPhotoBrowser'
+  s.homepage = 'https://github.com/o2xufei/MWPhotoBrowser'
   s.author = { 'Michael Waterfall' => 'michaelwaterfall@gmail.com' }
   s.social_media_url = 'https://twitter.com/mwaterfall'
 
   s.source = {
-    :git => 'https://github.com/EvoIos/MWPhotoBrowser.git',
+    :git => 'https://github.com/o2xufei/MWPhotoBrowser.git',
     :tag => '2.1.2-0.1.1'
   }
   s.platform = :ios, '7.0'
@@ -41,6 +41,6 @@ Pod::Spec.new do |s|
   s.dependency 'DACircularProgress', '~> 2.3.1'
 
   # SDWebImage
-  s.dependency 'SDWebImage', '~> 4.0.0'
+  s.dependency 'SDWebImage', '~> 4.3.3'
 
 end
