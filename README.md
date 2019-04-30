@@ -10,7 +10,7 @@ Beacuse My project need to this library and this project doesn't update for a lo
 - MBProgressHUD
 	- 0.9 -> 1.0.0
 - SDWebImage
-	- 3.7 ->  4.3.3
+	- 3.7 ->  5.0.2
 - DACircularProgress
 	- 2.3 -> 2.3.1
 

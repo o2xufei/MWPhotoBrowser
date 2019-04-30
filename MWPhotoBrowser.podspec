@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
     :git => 'https://github.com/o2xufei/MWPhotoBrowser.git',
     :tag => '2.1.2-0.1.1'
   }
-  s.platform = :ios, '7.0'
+  s.platform = :ios, '8.0'
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'MWPhotoBrowser' => ['Pod/Assets/*.png']
@@ -41,6 +41,6 @@ Pod::Spec.new do |s|
   s.dependency 'DACircularProgress', '~> 2.3.1'
 
   # SDWebImage
-  s.dependency 'SDWebImage', '4.3.3'
+  s.dependency 'SDWebImage', '5.0.2'
 
 end
